@@ -1,0 +1,506 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{C0BD9066-AECE-4EF0-83CD-CA5FE3AB6BC3}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "ShitalShah"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                RootNamespace = "ShitalShah"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "SyFastPage"
+                    AssemblyName = "SyFastPage"
+                    HintPath = "SyFastPage\bin\SyFastPage.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "aboutme.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aboutme.aspx.vb"
+                    DependentUpon = "aboutme.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "aboutme.aspx.resx"
+                    DependentUpon = "aboutme.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "aboutme_template.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "aboutme_template.ascx.vb"
+                    DependentUpon = "aboutme_template.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "aboutme_template.ascx.resx"
+                    DependentUpon = "aboutme_template.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "bookmarks.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "contact.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "contact.aspx.vb"
+                    DependentUpon = "contact.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "contact.aspx.resx"
+                    DependentUpon = "contact.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.vb"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "disclaimer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "disclaimer.aspx.vb"
+                    DependentUpon = "disclaimer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "disclaimer.aspx.resx"
+                    DependentUpon = "disclaimer.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "disclaimer_template.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "disclaimer_template.ascx.vb"
+                    DependentUpon = "disclaimer_template.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "disclaimer_template.ascx.resx"
+                    DependentUpon = "disclaimer_template.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "favicon.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "favmusic.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "favmusic.aspx.vb"
+                    DependentUpon = "favmusic.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "favmusic.aspx.resx"
+                    DependentUpon = "favmusic.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "gizmos.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "gizmos.aspx.vb"
+                    DependentUpon = "gizmos.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "gizmos.aspx.resx"
+                    DependentUpon = "gizmos.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "gizmos_template.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "gizmos_template.ascx.vb"
+                    DependentUpon = "gizmos_template.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "gizmos_template.ascx.resx"
+                    DependentUpon = "gizmos_template.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "glowing_heading_template.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "glowing_heading_template.ascx.vb"
+                    DependentUpon = "glowing_heading_template.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "glowing_heading_template.ascx.resx"
+                    DependentUpon = "glowing_heading_template.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "links.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "links.aspx.vb"
+                    DependentUpon = "links.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "links.aspx.resx"
+                    DependentUpon = "links.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "mybooks.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "mybooks.aspx.vb"
+                    DependentUpon = "mybooks.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "mybooks.aspx.resx"
+                    DependentUpon = "mybooks.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "mybooks_template.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "myphotos.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "myphotos.aspx.vb"
+                    DependentUpon = "myphotos.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "myphotos.aspx.resx"
+                    DependentUpon = "myphotos.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "myphotos_template.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "myphotos_template.ascx.vb"
+                    DependentUpon = "myphotos_template.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "myphotos_template.ascx.resx"
+                    DependentUpon = "myphotos_template.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "page_template.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectCommonFunctions.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "saysomething.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "saysomething.aspx.vb"
+                    DependentUpon = "saysomething.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "saysomething.aspx.resx"
+                    DependentUpon = "saysomething.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ShitalShah.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "SiteCommentControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SiteCommentControl.ascx.vb"
+                    DependentUpon = "SiteCommentControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SiteCommentControl.ascx.resx"
+                    DependentUpon = "SiteCommentControl.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SiteData.mdb"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "stuff2do.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "stuff2do.aspx.vb"
+                    DependentUpon = "stuff2do.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "stuff2do.aspx.resx"
+                    DependentUpon = "stuff2do.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "stuff2do_template.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "stuff2do_template.ascx.vb"
+                    DependentUpon = "stuff2do_template.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "stuff2do_template.ascx.resx"
+                    DependentUpon = "stuff2do_template.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SySimpleMenu.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "utilities.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "utilities.aspx.vb"
+                    DependentUpon = "utilities.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "utilities.aspx.resx"
+                    DependentUpon = "utilities.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "utilities_template.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "utilities_template.ascx.vb"
+                    DependentUpon = "utilities_template.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "utilities_template.ascx.resx"
+                    DependentUpon = "utilities_template.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "wordsbehav.sct"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "blog\themes\ShitalShah\admin.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "blog\themes\ShitalShah\Copy of homeTemplate.blogtemplate.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "blog\themes\ShitalShah\dayTemplate.blogtemplate"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "blog\themes\ShitalShah\homeTemplate.blogtemplate"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "blog\themes\ShitalShah\input.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "blog\themes\ShitalShah\itemTemplate.blogtemplate"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "blog\themes\ShitalShah\others.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "blog\themes\ShitalShah\tidyout.log"
+                    BuildAction = "None"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
